@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin : 0px;
+  font-family: 'Quicksand';
+  color : black;
+}
+
+.navbar{
+  display: flex;
+  max-width : 600px;
+  margin : auto;
+  padding : 20px;
+  align-items : center;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1{
+  color : #f1356d;
+  font-size : 2em;
+}
+
+.navbar .links{
+  margin-left : auto;
+}
+
+.navbar a{
+  margin-left : 16px;
+  padding : 6px;
+  text-decoration: none;
+}
+.links a:hover{
+  color : #f1356d;
+}
+
+.content{
+  max-width : 600px;
+  margin : 40px auto;
+  padding : 20px;
+}
+
+.blog-preview{
+  padding : 10px;
+  margin : 20px 0px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.blog-preview h2{
+  color :#f1356d;
+  font-size : 20px;
+
+}
+
+.blog-preview a{
+  text-decoration: none;
+}
+
+.form-blog h2{
+  text-align : center;
+  
+  margin : 20px 0px;
+  font-size : 25px;
+}
+
+.form label{
+  font-size : 20px;
+  display : block;
+  color :#f1356d;
+  margin : 10px 0px;
+}
+.form input{
+  width : 100%;
+  padding : 10px 5px;
+  margin-top : 5px 0px;
+  font-size : 15px;
+}
+.form textarea{
+  width : 100%;
+  height : auto;
+  font-size : 15px;
+}
+.form select{
+  display: block;
+  padding : 5px;
+  font-size: 15px;
+  margin : 5px 0px;
+}
+
+.form button{
+  padding : 5px;
+  font-size : 20px;
+  background-color: #f1356d;
+  color : #fff;
+  border : 0px;
+  margin : 10px 0px;
+  width : 100%;
+  text-align : center;
+}
+
+.btnDelete{
+  color : #fff;
+  background-color: #f1356d;
+  border-radius: 8px;
+  padding : 10px;
+  border : 0px;
+  margin-top : 10px;
+}

@@ -1,0 +1,16 @@
+{
+    "blogs": [
+         {
+             "title" : "Let's do cooking",
+             "body"  : "Hello Cooking",
+             "author": "Rahul",
+             "id"    : 2
+         },
+         {
+             "title" : "Let's go for a walk",
+             "author" :"Himanshu",
+             "body"  : "Hello park",
+             "id"    : 3
+         }
+     ]
+ }
